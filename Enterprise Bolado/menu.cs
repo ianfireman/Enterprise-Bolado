@@ -29,9 +29,14 @@ namespace Enterprise_Bolado
 
         private void openGame_Click(object sender, EventArgs e)
         {
-            gameFrame gameStart = new gameFrame();
+            gameFrame gameStart = new gameFrame(this);
             gameStart.Show();
-            this.SetVisibleCore(false);
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

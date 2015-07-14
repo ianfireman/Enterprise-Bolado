@@ -12,9 +12,12 @@ namespace Enterprise_Bolado
 {
     public partial class gameFrame : Form
     {
-        public gameFrame()
+        private Form form1;
+        public gameFrame(Form formVem)
         {
+            form1 = formVem;
             InitializeComponent();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -26,6 +29,7 @@ namespace Enterprise_Bolado
         {
             this.Hide();
             e.Cancel = true;
+            form1.Show();
         }
 
         
