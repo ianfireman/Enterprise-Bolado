@@ -32,6 +32,54 @@ namespace Enterprise_Bolado
             form1.Show();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripContainer1_LeftToolStripPanel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gameFrame_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void button1_MouseEnter(object sender, EventArgs e)
+        {
+            this.button1.Image = global::Enterprise_Bolado.Properties.Resources.botaovsEntered;
+
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            this.button1.Image = global::Enterprise_Bolado.Properties.Resources.botaovsDefault;
+        }
+
+      
+
+       
+
+       
+
         
 
     }
